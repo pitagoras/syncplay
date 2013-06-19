@@ -3,7 +3,7 @@ var page = require('webpage').create(),
     t, address;
 
 if (system.args.length === 1) {
-    console.log('Usage: loadspeed.js http://3.sync-play.appspot.com/gaedirect?OFFSET=&LIMIT=&EQUAL=&NOT_EQUAL=&SORT=D00Score%3AASCENDING&LESS_THAN=in%3AD00Score%3A48465&LESS_THAN_OR_EQUAL=&GREATER_THAN=in%3AD00Score%3A30000&GREATER_THAN_OR_EQUAL=&IN=&rv=json&kind=SYNcPLaY&key=none&id=in%3AD00Score');
+    console.log('Usage: loadspeed.js http://15.sync-play.appspot.com/user1-aghbc/3.3-kvsupd_003.htm');
     phantom.exit(1);
 } else {
     t = Date.now();
