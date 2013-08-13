@@ -3,7 +3,7 @@ var page = require('webpage').create(),
     t, address;
 
 if (system.args.length === 1) {
-    console.log('Usage: loadspeed.js http://16.sync-playz.appspot.com/user1-aghbc/3.3-everyBatch_064.htm');
+    console.log('Usage: loadspeed.js http://16.sync-playz.appspot.com/user1-aghbc/3.3-everyBatch_TARGET.htm');
     phantom.exit(1);
 } else {
     t = Date.now();
